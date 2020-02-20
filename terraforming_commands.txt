@@ -1,0 +1,131 @@
+# ALB
+terraforming alb
+
+# AutoScaling Group
+terraforming asg
+
+# CloudWatch Alarm
+terraforming cwa
+
+# Database Parameter Group
+terraforming dbpg
+
+# Database Security Group
+terraforming dbsg
+
+# Database Subnet Group
+terraforming dbsn
+
+# DynamoDB
+terraforming ddb
+
+# EC2
+terraforming ec2
+
+# ElastiCache Cluster
+terraforming ecc
+
+# ElastiCache Subnet Group
+terraforming ecsn
+
+# EFS File System
+terraforming efs
+
+# EIP
+terraforming eip
+
+# ELB
+terraforming elb
+
+# IAM Group
+terraforming iamg
+
+# IAM Group Membership
+terraforming iamgm
+
+# IAM Group Policy
+terraforming iamgp
+
+# IAM Instance Profile
+terraforming iamip
+
+# IAM Policy
+terraforming iamp
+
+# IAM Policy Attachment
+terraforming iampa
+
+# IAM Role
+terraforming iamr
+
+# IAM Role Policy
+terraforming iamrp
+
+# IAM User
+terraforming iamu
+
+# IAM User Policy
+terraforming iamup
+
+# Internet Gateway
+terraforming igw
+
+# KMS Key Alias
+terraforming kmsa
+
+# KMS Key
+terraforming kmsk
+
+# Launch Configuration
+terraforming lc
+
+# Network ACL
+terraforming nacl
+
+# NAT Gateway
+terraforming nat
+
+# Network Interface
+terraforming nif
+
+# Route53 Record
+terraforming r53r
+
+# Route53 Hosted Zone
+terraforming r53z
+
+# RDS
+terraforming rds
+
+# Redshift
+terraforming rs
+
+# Route Table
+terraforming rt
+
+# Route Table Association
+terraforming rta
+
+# S3
+terraforming s3
+
+# Security Group
+terraforming sg
+
+# Subnet
+terraforming sn
+
+# SNS Topic
+terraforming snst
+
+# SNS Subscription
+terraforming snss
+
+# SQS
+terraforming sqs
+
+# VPN Gateway
+terraforming vgw
+
+# VPC
+terraforming vpc
