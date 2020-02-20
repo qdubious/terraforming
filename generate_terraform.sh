@@ -10,7 +10,7 @@ while IFS= read -r line; do
     [ -d terraform ] || mkdir terraform
     #echo "$line"
     command=$(echo "${line}" | awk '{print $2}')
-    output=$(terraforming "$command")
+    output=$(terraforming "$command" | sed -E "s/tags {/tags = {/g")
     if [[ -z $output ]]; then
         continue;
     fi
