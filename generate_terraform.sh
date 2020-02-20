@@ -7,12 +7,12 @@ while IFS= read -r line; do
     if [[ $line == \#* ]]; then
         continue;
     fi
-    [ -d terraform ] || mkdir terraform
+    [ -d output ] || mkdir output
     #echo "$line"
     command=$(echo "${line}" | awk '{print $2}')
     output=$(terraforming "$command" | sed -E "s/tags {/tags = {/g")
     if [[ -z $output ]]; then
         continue;
     fi
-    echo "$output" > terraform/"$command".tf
+    echo "$output" > output/"$command".tf
 done < terraforming_commands.txt
